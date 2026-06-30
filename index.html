@@ -43,8 +43,8 @@
     }
   </script>
   <style>
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Cormorant Garamond', serif; background: #faf6f0; color: #1a1816; }
+    html { scroll-behavior: smooth; overflow-x: hidden; }
+    body { font-family: 'Cormorant Garamond', serif; background: #faf6f0; color: #1a1816; overflow-x: hidden; }
 
     /* Scroll reveal */
     .reveal {
@@ -131,7 +131,7 @@
     }
   </style>
 </head>
-<body>
+<body class="overflow-x-hidden">
 
 <!-- ===== HEADER ===== -->
 <header class="fixed top-0 left-0 w-full z-50 px-6 lg:px-10 py-5">
