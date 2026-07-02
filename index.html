@@ -493,6 +493,7 @@
         font-weight: 700;
         letter-spacing: 0.34em;
         text-transform: uppercase;
+        white-space: nowrap;
       }
       .hero-link {
         display: inline-flex;
@@ -505,6 +506,7 @@
         letter-spacing: 0.3em;
         text-transform: uppercase;
         color: #111;
+        white-space: nowrap;
       }
       .hero-link-stack {
         display: flex;
@@ -706,13 +708,14 @@
           right: auto;
           top: auto;
           width: 100%;
-          max-width: 840px;
+          max-width: 640px;
           height: auto;
           aspect-ratio: 840 / 1000;
           transform: none;
           overflow: hidden;
           z-index: 2;
           margin-bottom: 32px;
+          align-self: center;
         }
         .hero-still-life-inner {
           position: absolute;
@@ -962,8 +965,7 @@
               <a href="#work" class="hero-primary">View available work</a>
               <a href="#contact" class="hero-link"
                 ><span class="hero-link-stack"
-                  ><span class="hero-link-line">Commission</span
-                  ><span class="hero-link-line">a piece</span></span
+                  ><span class="hero-link-line">Commission a piece</span></span
                 ><span class="hero-link-arrow" aria-hidden="true">→</span></a
               >
             </div>
